@@ -10,6 +10,7 @@ public class Viaggi
     public void setCosto(double costo)
     {
         this.costo=costo;
+
     }
     public void setGiorni(int giorni)
     {
