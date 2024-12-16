@@ -3,8 +3,9 @@ public class Escursioni extends Viaggi
     private double CostoBase;
     private boolean AndataRitorno;
     private int Numero;
-    public Escursioni(double costo, boolean AR, int N)
+    public Escursioni(boolean AR, int N, String destinazione, int giorni, double costo)
     {
+        super(destinazione, giorni, costo);
         AndataRitorno=AR;
         CostoBase=costo;
         Numero=N;

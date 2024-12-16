@@ -3,8 +3,9 @@ public class Pasti extends Viaggi
     private double CostoBase;
     private boolean AndataRitorno;
     private boolean MezzaPensione;
-    public Pasti(double costo, boolean AR, boolean MP)
+    public Pasti(boolean AR, boolean MP, String destinazione, int giorni, double costo)
     {
+        super(destinazione, giorni, costo);
         MezzaPensione=MP;
         CostoBase=costo;
         if (MezzaPensione)

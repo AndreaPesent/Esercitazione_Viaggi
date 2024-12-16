@@ -3,6 +3,12 @@ public class Viaggi
     private String destinazione;
     private double costo;
     private int giorni;
+    public Viaggi(String destinazione,int giorni, double costo)
+    {
+        this.destinazione=destinazione;
+        this.costo=costo;
+        this.giorni=giorni;
+    }
     public void setDestinazione(String destinazione)
     {
         this.destinazione=destinazione;

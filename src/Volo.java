@@ -2,8 +2,9 @@ public class Volo extends Viaggi
 {
     private double CostoBase;
     private boolean AndataRitorno;
-    public Volo(double costo, boolean AR)
+    public Volo(boolean AR, String destinazione, int giorni, double costo)
     {
+        super(destinazione, giorni, costo);
         AndataRitorno=AR;
         CostoBase=costo;
         if(AndataRitorno==false)
